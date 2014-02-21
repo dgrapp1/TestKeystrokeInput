@@ -1,0 +1,14 @@
+﻿<Window x:Class="TestKeystrokeInput.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="MainWindow" Height="667.8" Width="830" Loaded="Window_Loaded_1" Closing="Window_Closing_1">
+    <Grid HorizontalAlignment="Left" Height="637" VerticalAlignment="Top" Width="822">
+        <StatusBar HorizontalAlignment="Left" Height="52" Margin="10,10,0,0" VerticalAlignment="Top" Width="802">
+            <TextBox Height="42" TextWrapping="Wrap" Text="Raise your left hand above your head.   The box will turn green once completed." Width="267" RenderTransformOrigin="0.633,0.478"/>
+            <Button x:Name="Indicator" Content="" Height="32" Width="47" RenderTransformOrigin="0.766,0.531" Background="#FFEA1A1A"/>
+            <Button x:Name="CrossIndicator" Content="Cross" Height="29" Width="58"/>
+        </StatusBar>
+        <Image HorizontalAlignment="Left" Height="560" Margin="10,67,0,0" VerticalAlignment="Top" Width="802"/>
+        <Image x:Name="Image" HorizontalAlignment="Left" Height="523" Margin="21,78,0,0" VerticalAlignment="Top" Width="791"/>
+    </Grid>
+</Window>
